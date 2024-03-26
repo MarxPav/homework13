@@ -13,10 +13,10 @@ public class Author {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "Author{" +
-                "firstName=" + firstName +
-                ", lastName=" + lastName +
-                '}';
+        return " " +
+                "Имя: " + firstName +
+                "; Фамилия: " + lastName +
+                ' ';
     }
 
     public boolean equals(Object object) {
