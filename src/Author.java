@@ -13,9 +13,9 @@ public class Author {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "Автор: " +
-                "Имя: " + firstName +
-                ", Фамилия: " + lastName +
+        return " " +
+                "Имя:" + firstName +
+                ", Фамилия:" + lastName +
                 ' ';
     }
 

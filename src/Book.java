@@ -27,9 +27,9 @@ public class Book {
     @java.lang.Override
     public java.lang.String toString() {
         return " " +
-                "Название: " + name +
-                ", Год публикации: " + publicationYear +
-                ", Автор: " + author +
+                "Название:" + name +
+                ", Год публикации:" + publicationYear +
+                ", Автор:" + author +
                 ' ';
     }
 
