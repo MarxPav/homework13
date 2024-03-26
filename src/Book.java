@@ -26,11 +26,11 @@ public class Book {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "Book{" +
-                "name=" + name +
-                ", publicationYear=" + publicationYear +
-                ", author=" + author +
-                '}';
+        return " " +
+                "Название: " + name +
+                ", Год публикации: " + publicationYear +
+                ", Автор: " + author +
+                ' ';
     }
 
     public boolean equals(Object object) {
