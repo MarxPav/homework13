@@ -11,7 +11,7 @@ public class Author {
         return firstName;
     }
 
-    @java.lang.Override
+    @Override
     public java.lang.String toString() {
         return " " +
                 "Имя: " + firstName +
@@ -19,6 +19,7 @@ public class Author {
                 ' ';
     }
 
+    @Override
     public boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
@@ -27,6 +28,7 @@ public class Author {
         return java.util.Objects.equals(firstName, author.firstName) && java.util.Objects.equals(lastName, author.lastName);
     }
 
+    @Override
     public int hashCode() {
         return java.util.Objects.hash(super.hashCode(), firstName, lastName);
     }

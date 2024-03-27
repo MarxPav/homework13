@@ -24,7 +24,7 @@ public class Book {
         this.publicationYear = publicationYear;
     }
 
-    @java.lang.Override
+    @Override
     public java.lang.String toString() {
         return " " +
                 "Название: " + name +
@@ -33,6 +33,8 @@ public class Book {
                 ' ';
     }
 
+
+    @Override
     public boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
@@ -41,6 +43,7 @@ public class Book {
         return publicationYear == book.publicationYear && java.util.Objects.equals(name, book.name) && java.util.Objects.equals(author, book.author);
     }
 
+    @Override
     public int hashCode() {
         return java.util.Objects.hash(super.hashCode(), name, publicationYear, author);
     }
